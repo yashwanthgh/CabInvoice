@@ -40,12 +40,19 @@ namespace CabInvoice
 
         public double CalculateTotalFare(IEnumerable<IRide> rides)
         {
-            double totalFare = 0;
-            foreach (var ride in rides)
+            return rides.Sum(ride => CalculateFare(ride));
+        }
+
+        public Invoice GenerateInvoice(IEnumerable<IRide> rides)
+        {
+            double totalFare = CalculateTotalFare(rides);
+            int totalRides = rides.Count();
+            return new Invoice
             {
-                totalFare += CalculateFare(ride);
-            }
-            return totalFare;
+                TotalRides = totalRides,
+                TotalFare = totalFare,
+                AverageFarePerRide = totalFare / totalRides
+            };
         }
 
     }

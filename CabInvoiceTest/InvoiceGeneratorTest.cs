@@ -31,11 +31,12 @@ namespace CabInvoiceTest
             double actual = generator.CalculateFare(ride);
             Assert.That(actual, Is.EqualTo(expected));
         }
+
         static object[] RideCases =
-   {
-        new object[] { ride1, 325 },
-        new object[] { ride2, 390 }
-    };
+        {
+            new object[] { ride1, 325 },
+            new object[] { ride2, 390 }
+        };
         [TestCaseSource (nameof(RideCases))]
         public void TotalFareCalculator_ReturnTheTolatFare (List<IRide> rides , double expected )
         {
