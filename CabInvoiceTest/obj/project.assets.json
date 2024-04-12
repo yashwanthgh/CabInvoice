@@ -998,19 +998,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thanay\\.nuget\\packages\\": {}
+    "C:\\Users\\laksh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
+      "projectUniqueName": "C:\\Users\\laksh\\Source\\Repos\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
       "projectName": "CabInvoiceTest",
-      "projectPath": "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
-      "packagesPath": "C:\\Users\\Thanay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoiceTest\\obj\\",
+      "projectPath": "C:\\Users\\laksh\\Source\\Repos\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
+      "packagesPath": "C:\\Users\\laksh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\laksh\\Source\\Repos\\CabInvoice\\CabInvoiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Thanay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\laksh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1024,8 +1024,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {
-              "projectPath": "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj"
+            "C:\\Users\\laksh\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {
+              "projectPath": "C:\\Users\\laksh\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj"
             }
           }
         }
@@ -1082,7 +1082,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

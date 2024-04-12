@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CabInvoice
+namespace NewCabInvoice
 {
+   
     public interface IRide
     {
         double Distance { get; }
@@ -14,7 +15,8 @@ namespace CabInvoice
 
     public interface IInvoiceGenerator
     {
-        double CalculateFare(IRide ride);
+        double CalculateFare(IRide ride); 
+        double CalculateTotalFare(IEnumerable<IRide> rides);
     }
 
     public class Ride(double distance, double duration) : IRide
@@ -28,11 +30,21 @@ namespace CabInvoice
         private const double CostPerMinute = 1.0;
         private const double MinimumFare = 5.0;
 
-        public double CalculateFare(IRide ride)
+        public double CalculateFare(IRide ride) 
         {
             double distanceCost = ride.Distance * CostPerKm;
             double timeCost = ride.Duration * CostPerMinute;
             double totalFare = Math.Max(distanceCost + timeCost, MinimumFare);
+            return totalFare;
+        }
+
+        public double CalculateTotalFare(IEnumerable<IRide> rides)
+        {
+            double totalFare = 0;
+            foreach (var ride in rides)
+            {
+                totalFare += CalculateFare(ride);
+            }
             return totalFare;
         }
 
