@@ -13,6 +13,7 @@ namespace CabInvoiceTest
             new Ride (5,10),
             new Ride (30,30)
             };
+
         [SetUp]
         public void Setup()
         {
