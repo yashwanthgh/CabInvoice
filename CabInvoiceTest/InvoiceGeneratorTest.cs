@@ -7,8 +7,10 @@ namespace CabInvoiceTest
         [SetUp]
         public void Setup()
         {
+
         }
 
+        //Tests multiple test cases for calculating the fare given distance and time.
         [TestCase(10, 30, 130)]
         [TestCase(30, 10, 310)]
         [TestCase(15, 15, 165)]
