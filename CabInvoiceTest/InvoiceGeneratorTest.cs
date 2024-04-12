@@ -5,25 +5,9 @@ namespace CabInvoiceTest
 {
     public class InvoiceGeneratorTest
     {
-<<<<<<< HEAD
-       static  List<IRide> ride1 = new List<IRide>() {
-            new Ride (10,30),
-            new Ride (15,45)
-            };
-       static  List<IRide> ride2 = new List<IRide>() {
-            new Ride (5,10),
-            new Ride (30,30)
-            };
-
         [SetUp]
-        public void Setup()
-        {
-=======
-            [SetUp]
             public void Setup()
             {
->>>>>>> 3c4b9efb9550f59f252b9d4d8cc25a739a238603
-
             }
 
             [TestCase(10, 30, 130)]
