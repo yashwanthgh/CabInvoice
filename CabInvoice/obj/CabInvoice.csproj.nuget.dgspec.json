@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\Collaborate\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {}
+    "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {}
   },
   "projects": {
-    "C:\\Code\\Collaborate\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {
+    "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Collaborate\\CabInvoice\\CabInvoice\\CabInvoice.csproj",
+        "projectUniqueName": "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj",
         "projectName": "CabInvoice",
-        "projectPath": "C:\\Code\\Collaborate\\CabInvoice\\CabInvoice\\CabInvoice.csproj",
-        "packagesPath": "C:\\Users\\Yash\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Collaborate\\CabInvoice\\CabInvoice\\obj\\",
+        "projectPath": "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj",
+        "packagesPath": "C:\\Users\\Thanay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thanay\\Source\\Repos\\CabInvoice\\CabInvoice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thanay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
