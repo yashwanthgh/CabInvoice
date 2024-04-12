@@ -1,0 +1,14 @@
+C:\Code\Collaborate\CabInvoice\CabInvoice\bin\Debug\net8.0\CabInvoice.exe
+C:\Code\Collaborate\CabInvoice\CabInvoice\bin\Debug\net8.0\CabInvoice.deps.json
+C:\Code\Collaborate\CabInvoice\CabInvoice\bin\Debug\net8.0\CabInvoice.runtimeconfig.json
+C:\Code\Collaborate\CabInvoice\CabInvoice\bin\Debug\net8.0\CabInvoice.dll
+C:\Code\Collaborate\CabInvoice\CabInvoice\bin\Debug\net8.0\CabInvoice.pdb
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\CabInvoice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\CabInvoice.AssemblyInfoInputs.cache
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\CabInvoice.AssemblyInfo.cs
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\CabInvoice.csproj.CoreCompileInputs.cache
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\CabInvoice.dll
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\refint\CabInvoice.dll
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\CabInvoice.pdb
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\CabInvoice.genruntimeconfig.cache
+C:\Code\Collaborate\CabInvoice\CabInvoice\obj\Debug\net8.0\ref\CabInvoice.dll
