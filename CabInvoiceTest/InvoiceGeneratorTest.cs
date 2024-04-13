@@ -20,14 +20,14 @@ namespace CabInvoiceTest
         public void FareCalculator_ReturnTheFareValue(int distance, int time, double expected)
         {
             IInvoiceGenerator generator = new InvoiceGenerator();
-            IRide ride = new Ride(distance, time);
+            IRide ride = new Ride(distance, time, false);
             double actual = generator.CalculateFare(ride);
             Assert.That(actual, Is.EqualTo(expected));
         }
 
 
-        static List<IRide> ride1 = [new Ride(10, 30), new Ride(15, 45)];
-        static List<IRide> ride2 = [new Ride(5, 10), new Ride(30, 30)];
+        static List<IRide> ride1 = [new Ride(10, 30, false), new Ride(15, 45, false)];
+        static List<IRide> ride2 = [new Ride(5, 10, false), new Ride(30, 30, false)];
         static object[] RideCases = [new object[] { ride1, 325 }, new object[] { ride2, 390 }];
 
         [TestCaseSource(nameof(RideCases))]
@@ -42,8 +42,8 @@ namespace CabInvoiceTest
 
         private static IEnumerable<object[]> GetTestCases()
         {
-            yield return new object[] { 2, 230, 115, new List<Ride> { new Ride(5, 20), new Ride(10, 60) } };
-            yield return new object[] { 3, 630, 210, new List<Ride> { new Ride(10, 40), new Ride(15, 60), new Ride(20, 80) } };
+            yield return new object[] { 2, 230, 115, new List<Ride> { new Ride(5, 20, false), new Ride(10, 60, false) } };
+            yield return new object[] { 3, 630, 210, new List<Ride> { new Ride(10, 40, false), new Ride(15, 60, false), new Ride(20, 80, false) } };
         }
 
         [Test]
@@ -81,8 +81,8 @@ namespace CabInvoiceTest
                     123, // User ID
                     new List<IRide>
                     {
-                    new Ride(10, 30),
-                    new Ride(15, 45)  
+                    new Ride(10, 30, false),
+                    new Ride(15, 45, false)  
                     },
                     new Invoice { TotalRides = 2, TotalFare = 435.0, AverageFarePerRide = 217.5 }
                 );
@@ -91,11 +91,24 @@ namespace CabInvoiceTest
                     456, // User ID
                     new List<IRide>
                     {
-                    new Ride(5, 15) 
+                    new Ride(5, 15, false) 
                     },
                     new Invoice { TotalRides = 1, TotalFare = 65.0, AverageFarePerRide = 65.0 }
                 );
             }
+        }
+
+        [Test]
+        [TestCase(15, 45, true)]
+        [TestCase(20, 60, true)]
+        [TestCase(10, 30, true)]
+        [TestCase(25, 70, true)]
+        public void PremiumRide_IsPremiumProperty_ReturnsTrue(int distance, int duration, bool isPremium)
+        {
+            IRide ride = new Ride(distance, duration, isPremium);
+
+            bool result = ride.IsPremium;
+            Assert.That(result, Is.True);
         }
     }
 }
