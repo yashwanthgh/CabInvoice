@@ -1130,19 +1130,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yash\\.nuget\\packages\\": {}
+    "C:\\Users\\Saikat Mondal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\Collaborate\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
+      "projectUniqueName": "C:\\Users\\Saikat Mondal\\source\\repos\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
       "projectName": "CabInvoiceTest",
-      "projectPath": "C:\\Code\\Collaborate\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
-      "packagesPath": "C:\\Users\\Yash\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Collaborate\\CabInvoice\\CabInvoiceTest\\obj\\",
+      "projectPath": "C:\\Users\\Saikat Mondal\\source\\repos\\CabInvoice\\CabInvoiceTest\\CabInvoiceTest.csproj",
+      "packagesPath": "C:\\Users\\Saikat Mondal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Saikat Mondal\\source\\repos\\CabInvoice\\CabInvoiceTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Yash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Saikat Mondal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1150,14 +1155,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Code\\Collaborate\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {
-              "projectPath": "C:\\Code\\Collaborate\\CabInvoice\\CabInvoice\\CabInvoice.csproj"
+            "C:\\Users\\Saikat Mondal\\source\\repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj": {
+              "projectPath": "C:\\Users\\Saikat Mondal\\source\\repos\\CabInvoice\\CabInvoice\\CabInvoice.csproj"
             }
           }
         }
@@ -1218,7 +1224,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
